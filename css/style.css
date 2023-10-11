@@ -68,6 +68,16 @@ margin-left: 50px;
     display: flex;
     justify-content: flex-end
 }
+/****** barre de recherche et filtre***********/
+form i{
+    text-align: center;
+    border: solid 1px;
+    width: 50px;
+    height: 49px;
+    border-radius: 15px 0px 0px 15px;
+    background-color: #F2F2F2;
+}
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
