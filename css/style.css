@@ -58,15 +58,19 @@ a {
     color: var(--main-bg-color)
 }
 /****** header ***********/
-.Logo img{
-height: 19px;
-width: auto;
-margin-top:30px ;
-margin-left: 50px;
-}
-.Logo a{
+
+.main-Logo {
     display: flex;
-    justify-content: flex-end
+}
+.Logo img{
+    height: 19px;
+    width: auto;
+    margin-top:30px ;
+    margin-left: 50px;
+}
+.Link{
+    margin-left: auto;
+    gap: 68px;
 }
 /****** barre de recherche et filtre***********/
 form i{
@@ -76,6 +80,17 @@ form i{
     height: 49px;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
+}
+.filtres {
+    display: flex;
+}
+.filtres div {
+    background-color:white;
+    border: 2px solid #d9d9d9;
+    color: black;
+    border-radius: 25px;
+    padding: 4px 19px 4px 19px;
+    gap: 10px;
 }
 
 /****** Hebergements And Populaires ***********/
@@ -140,9 +155,6 @@ form i{
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
-
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

@@ -23,10 +23,14 @@
   <body>
     <div class="main-container">
       <header>
-        <div class="Logo">
-        <img src="images/logo/Booki.png">
-        <a href="index.html">Hébergement</a>
-        <a href="#">Activité</a>
+        <div class="main-Logo">
+            <div class="Logo">
+                <img src="images/logo/Booki.png">
+            </div>
+                <div class="Link">
+                    <a href="index.html">Hébergement</a>
+                    <a href="#">Activité</a>
+            </div>
         </div>
      </header>
       <main>
@@ -37,13 +41,25 @@
                 <input type="text" id="recherche" name="recherche" value="Marseille, France" placeholder="recherche" />
                 <input type="submit" value="Rechercher" />
         </form>
-        <p class="filtres">
+        <div class="filtres">
         Filtres
-        <input type="button" value="Économique" />
-        <input type="button" value="Familial" />
-        <input type="button" value="Romantique" />
-        <input type="button" value="Nos pépites" />
-        </p>
+        <div class="Économique">
+            <i class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i>
+            <input type="button" value="Économique" />
+        </div>
+        <div class="Familial">
+            <i class="fa-solid fa-person" style="color: #0065fc;"></i>
+            <input type="button" value="Familial" />
+        </div>
+        <div class="Romantique">
+            <i class="fa-solid fa-heart" style="color: #0065fc;"></i>
+            <input type="button" value="Romantique" />
+        </div>
+        <div class="Nos_pépites">
+            <i class="fa-solid fa-fire" style="color: #0065fc;"></i>
+            <input type="button" value="Nos pépites" />
+        </div>
+    </div>
         <div class="Info">
         <i class="fa-solid fa-info"></i>
         <i class="fa-regular fa-circle"></i>
