@@ -126,7 +126,10 @@ form i {
 .filtres button:hover{
     background-color: #DEEBFF;
 }
-
+.filtres{
+    gap: 15px;
+    line-height: 50px;
+}
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
