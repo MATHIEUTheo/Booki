@@ -88,24 +88,53 @@ margin-right: 68px;
 .titre h1{
     height: 26px;
     width: 1340px;
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     size: 22px;
 }
 .titre p{
     width: 1340px;
     height: 19px;
-    font-family: raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     size: 16px;
 }
-/****** barre de recherche et filtre***********/
+/****** barre de recherche, filtre et info***********/
+form{
+    width: 377px;
+    height: 49px;
+    border: 1px solid #F2F2F2;
+    border-radius: 15px;
+    gap: 24px;
+}
 form i {
     text-align: center;
-    border: solid 1px;
+    border: solid 1px #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
     padding: 16px 19px;
+}
+form .recherche{
+    left: 18px;
+    top: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    height: 21px;
+    width: 147px;
+    border: 0px;
+    text-align: center;
+    margin: 0px 16px 0px 16.9px;
+}
+form .envoyer {
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    padding: 13px 16px 13px 15px;
+    background-color: #0065fc;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
 }
 .filtres {
     display: flex;
@@ -117,7 +146,7 @@ form i {
     border-radius: 25px;
     padding: 4px 19px 4px 19px;
     gap: 10px;
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     line-height: 19.96px;
     size: 17px;
@@ -129,6 +158,16 @@ form i {
 .filtres{
     gap: 15px;
     line-height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+.Info i{
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
