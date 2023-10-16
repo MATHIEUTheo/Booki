@@ -165,9 +165,8 @@ form .envoyer {
 .Info i{
     text-align: center;
     border: 1px solid #d9d9d9;
-    width: 21px;
-    height: 21px;
     border-radius: 50%;
+    padding: 12px 10px 12px 10px;
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
