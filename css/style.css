@@ -350,6 +350,13 @@ footer{
     background-color: var(--main-bg-color);
     margin-top: 30px;
 }
+.APropos a{
+    margin-bottom: 15px;
+    height: 19px;
+}
+.APropos h2{
+    margin-bottom: 0;
+}
 .APropos{
     display: flex;
     flex-direction: column;
@@ -362,11 +369,25 @@ footer{
     padding: 20px;
     width: 30%;
 }
+.NosHebergements a{
+    margin-bottom: 15px;
+    height: 19px;
+}
+.NosHebergements h2{
+    margin-bottom: 0;
+}
 .Assistance{
     display: flex;
     flex-direction: column;
     padding: 20px;
     width: 30%;
+}
+.Assistance a{
+    margin-bottom: 15px;
+    height: 19px;
+}
+.Assistance h2{
+    margin-bottom: 0;
 }
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
