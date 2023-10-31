@@ -116,11 +116,8 @@ margin-right: 68px;
     transition: 0.3s;
 }
 .titre h1{
-    height: 26px;
-    width: 1340px;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    size: 22px;
+    font-size: 22px;
+    margin: 0;
 }
 .titre p{
     width: 1340px;
@@ -132,11 +129,10 @@ margin-right: 68px;
 }
 /****** barre de recherche, filtre et info***********/
 form{
-    width: 377px;
+    width: 371px;
     height: 49px;
     border: 1px solid #F2F2F2;
     border-radius: 15px;
-    gap: 24px;
 }
 form i {
     text-align: center;
@@ -146,16 +142,13 @@ form i {
     padding: 16px 19px;
 }
 form .recherche{
-    left: 18px;
-    top: 15px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    height: 21px;
     width: 147px;
     border: 0px;
     text-align: center;
-    margin: 0px 16px 0px 16.9px;
+    padding: 14px 18px;
+    margin: -3px;
 }
 form .envoyer {
     border: 1px solid #0065FC;
@@ -173,16 +166,11 @@ form .envoyer {
 .filtres button {
     background-color:white;
     border: 2px solid #d9d9d9;
-    color: black;
     height: 50px;
     border-radius: 25px;
     padding: 4px 19px 4px 19px;
-    gap: 10px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
-    line-height: 19.96px;
-    size: 17px;
-    position: relative;
+    font-size: 17px;
 }
 .filtres button:hover{
     background-color: #DEEBFF;
