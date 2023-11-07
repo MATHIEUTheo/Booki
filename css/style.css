@@ -454,5 +454,20 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    body{
+        width: 110%;
+    }
+    .hebergements-and-populaires{
+        flex-direction: column-reverse;
+    }
+    .hebergements-and-populaires .hebergements{
+        background-color: white;
+    }
+    .Activité-ligne{
+        flex-direction: column;
+    }
+    .Activité-ligne .card-2{
+        width: 100%;
+        margin-bottom: 15px;
+    }
 }
