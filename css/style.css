@@ -398,9 +398,6 @@ footer{
     .break{
         width: 100%;
     }
-    .filtres button{
-        font-size: 16px;
-    }
     .Info{
         margin: 15px 0px;
     }
@@ -410,13 +407,6 @@ footer{
 
     .hebergements {
         width: 100%;
-    }
-
-    .hebergements .card-title{
-        font-size: 14px;
-    }
-    .hebergements .card-subtitle{
-        font-size: 13px;
     }
 
     .populaires {
@@ -433,29 +423,19 @@ footer{
     .populaires-cards a {
         width: 30%;
     }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
     .card-2 img{
         height: 200px;
-    }
-    footer h2{
-        font-size: 17px;
-    }
-    footer a{
-        font-size: 16px;
     }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
+
     body{
-        width: 110%;
+        margin: 0;
+    }
+    .main-container{
+        padding: 0;
     }
     .hebergements-and-populaires{
         flex-direction: column-reverse;
@@ -463,11 +443,36 @@ footer{
     .hebergements-and-populaires .hebergements{
         background-color: white;
     }
+    .hebergements-and-populaires section{
+        padding: 15px;
+        border-radius: 0;
+        width: 101.5%;
+    }
+    .populaires-cards{
+        display: block;
+    }
+    .Hotel1{
+        display: block;
+    }
+    .Hotel1 .card{
+        width: 95%;
+    }
     .Activité-ligne{
         flex-direction: column;
+        width: 101.2%;
     }
     .Activité-ligne .card-2{
-        width: 100%;
-        margin-bottom: 15px;
+        width: 89.5%;
+        margin: 15px 0px 0px 20px;
     }
+    footer{
+        flex-direction: column;
+    }
+    footer a{
+        width: 250%;
+    }
+    footer h2{
+        width: 250%;
+    }
+    
 }
