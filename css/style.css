@@ -127,6 +127,14 @@ margin-right: 68px;
     margin-bottom: 2%;
 }
 /****** barre de recherche, filtre et info***********/
+nav{
+    display: flex;
+padding: 0px 20px;
+flex-direction: column;
+align-items: flex-start;
+gap: 35px;
+align-self: stretch;
+}
 form{
     width: 371px;
     height: 49px;
@@ -182,11 +190,11 @@ form .envoyer {
     display: flex;
     gap: 15px;
     line-height: 50px;
-    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
-    margin: 2% 0%;
-    align-items: center;
+}
+.filtres p{
+    margin-top: 0;
 }
 .Info i{
     text-align: center;
@@ -392,7 +400,6 @@ footer{
         flex-wrap: wrap;
     }
     .filtres p{
-        margin-top: 0px;
         height: 16px;
     }
     .break{
@@ -436,6 +443,19 @@ footer{
     }
     .main-container{
         padding: 0;
+    }
+    .filtres{
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .filtres div{
+        display: grid;
+    }
+    .Info{
+        margin: 25px;
+    }
+    .Info p{
+        margin-left: 10px;
     }
     .hebergements-and-populaires{
         flex-direction: column-reverse;
