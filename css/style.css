@@ -196,12 +196,11 @@ form .envoyer {
 .filtres p{
     margin-top: 0;
 }
-.Info i{
-    text-align: center;
-    border: 1px solid #d9d9d9;
-    border-radius: 50%;
-    padding: 12px 10px 12px 10px;
-    margin-bottom: 2%;
+.Info{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 35px;
 }
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
