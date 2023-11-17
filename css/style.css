@@ -79,6 +79,9 @@ header{
     width: auto;
     margin-top: 30px;
 }
+.LinkG{
+    display: contents;
+}
 .Link1{
 margin-left: auto;
 margin-right: 68px;
@@ -141,14 +144,14 @@ form{
     border: 1px solid #F2F2F2;
     border-radius: 15px;
 }
-form i {
+form .fa-location-dot {
     text-align: center;
     border: solid 1px #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     background-color: #F2F2F2;
     padding: 16px 19px;
 }
-form .fa-solid{
+form .fa-location-dot{
     color: #000000;
 }
 form .recherche{
@@ -170,6 +173,17 @@ form .envoyer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 18px;
+}
+form .fa-magnifying-glass {
+    border: 1px solid #0065FC;
+    border-radius: 15px;
+    padding:  15px 16px;
+    background-color: #0065fc;
+    color: white;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+form button{
+    display: none;
 }
 .filtres i{
     color: #0065fc
@@ -395,6 +409,7 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+
     .filtres{
         flex-wrap: wrap;
     }
@@ -403,9 +418,6 @@ footer{
     }
     .break{
         width: 100%;
-    }
-    .Info{
-        margin: 15px 0px;
     }
     .hebergements-and-populaires {
         flex-direction: column;
@@ -417,7 +429,7 @@ footer{
 
     .populaires {
         width: 100%;
-        margin-top: 50px;
+        margin-top: 35px;
     }
 
     .populaires-cards {
@@ -437,11 +449,62 @@ footer{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 30%;
+    }
+    .main-Logo{
+        flex-direction: column;
+    }
+    .Logo{
+        justify-content: center;
+        display: flex;
+        padding: 30px;
+    }
+    .LinkG{
+        display: flex;
+
+    }
+    .Link1{
+        margin-left: -30px;
+        margin-right: 0;
+    }
+    .Link1::after{
+        top: 35px;
+        margin-left: -75px;
+        padding-right: 110px;
+    }
+    .Link2{
+        margin-left: 98px;
+    }
+    .Link2::after{
+        background-color: #F2F2F2;
+        width: 100%;
+        top: 35px;
+        padding-right: 128px;
+        margin-left: -63px;
+    }
     body{
         margin: 0;
     }
     .main-container{
         padding: 0;
+    }
+    form{
+        width: 100%;
+    }
+    form .envoyer{
+        display: none;
+    }
+    form button{
+        position: relative;
+        display: initial;
+        background: white;
+        border: 0;
+        top: -3px;
+        left: 15%;
     }
     .filtres{
         display: grid;
@@ -450,8 +513,8 @@ footer{
     .filtres div{
         display: grid;
     }
-    .Info{
-        margin: 25px;
+    .filtres button{
+        text-align: start;
     }
     .Info p{
         margin-left: 10px;
@@ -493,5 +556,5 @@ footer{
     footer h2{
         width: 250%;
     }
-    
+
 }
