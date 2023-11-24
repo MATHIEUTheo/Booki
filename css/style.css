@@ -126,7 +126,6 @@ margin-right: 68px;
     height: 19px;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    size: 16px;
     margin-bottom: 2%;
 }
 /****** barre de recherche, filtre et info***********/
@@ -519,6 +518,9 @@ footer{
     .Info p{
         margin-left: 10px;
     }
+    .section-title{
+        margin-left: 1.5%;
+    }
     .hebergements-and-populaires{
         flex-direction: column-reverse;
     }
@@ -538,6 +540,12 @@ footer{
     }
     .Hotel1 .card{
         width: 95%;
+    }
+    .Titre-hebergement2{
+        margin-left: 0;
+    }
+    .Activité h2{
+        padding-left: 15px;
     }
     .Activité-ligne{
         flex-direction: column;
